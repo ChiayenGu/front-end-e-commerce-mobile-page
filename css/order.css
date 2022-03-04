@@ -179,10 +179,6 @@ h5 {
 
 /* 商品名称 */
 
-.orderDetail {
-    /* padding: 13px 0; */
-}
-
 .orderDetail .goodNameNum {
     display: flex;
     justify-content: space-between;
@@ -200,7 +196,11 @@ h5 {
 }
 
 .goodNameNum .goodNum {
-    margin: 0 17px;
+    /* margin: 0 17px; */
+    width: 44px;
+    height: 44px;
+    text-align: center;
+    line-height: ;
 }
 
 .orderDetail .goodTag span {
@@ -213,7 +213,8 @@ h5 {
     background-color: #f7f7f7;
 }
 
-.orderDetail {}
+
+/* .orderDetail {} */
 
 .orderDetail .goodPrice span {
     font-size: 10px;
