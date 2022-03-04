@@ -155,3 +155,129 @@ h5 {
     font-size: 13px;
     color: #fff;
 }
+
+
+/* 订单信息 */
+
+.order {
+    display: flex;
+    align-items: center;
+}
+
+
+/* 订单图片 */
+
+.goodPic {
+    padding: 11px;
+}
+
+.goodPic img {
+    height: 100%;
+    margin-right: 11px;
+}
+
+
+/* 商品名称 */
+
+.orderDetail {
+    /* padding: 13px 0; */
+}
+
+.orderDetail .goodNameNum {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.goodNameNum .goodName {
+    flex: 1;
+    height: 32px;
+    line-height: 16px;
+    font-size: 14px;
+    font-weight: normal;
+    color: #262626;
+    overflow: hidden;
+}
+
+.goodNameNum .goodNum {
+    margin: 0 17px;
+}
+
+.orderDetail .goodTag span {
+    display: inline-block;
+    padding: 0 5px;
+    line-height: 16px;
+    font-size: 12px;
+    color: #888888;
+    border-radius: 2px;
+    background-color: #f7f7f7;
+}
+
+.orderDetail {}
+
+.orderDetail .goodPrice span {
+    font-size: 10px;
+    font-weight: normal;
+    vertical-align: middle;
+}
+
+.orderDetail .goodPrice span:first-child {
+    color: #cf4444;
+}
+
+.orderDetail .goodPrice span:last-child {
+    text-decoration: line-through;
+    color: #999999;
+}
+
+.orderDetail .goodPrice h5 {
+    font-size: 16px;
+}
+
+.orderDetail .goodPrice i {
+    font-size: 12px;
+}
+
+
+/* 物流信息 */
+
+.attach {
+    padding: 14px;
+}
+
+.attach li {
+    margin-bottom: 14px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.attach li:last-child {
+    margin-bottom: 0;
+}
+
+.attach li div {
+    font-size: 14px;
+}
+
+.attach li div span {
+    font-size: 14px;
+    line-height: 1;
+    color: #262626;
+    /* vertical-align: top; */
+}
+
+.attach li div span.remark {
+    font-size: 12px;
+    color: #999999;
+    margin-left: 20px;
+}
+
+.attach li i {
+    font-size: 14px;
+    color: #808080;
+}
+
+.priceDetail .red span {
+    color: #cf4444;
+}
